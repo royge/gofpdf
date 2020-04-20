@@ -48,13 +48,13 @@ have fewer than 256 glyphs.
 
 ##  Installation
 
-If you use Go modules, simply import `github.com/jung-kurt/gofpdf/v2` and
+If you use Go modules, simply import `github.com/royge/gofpdf/v2` and
 gofpdf will be available automatically when you build your application. If you
 want to view or modify the source tree, execute the following in a directory
 that is outside of your $GOPATH.
 
 ```shell
-git clone https://github.com/jung-kurt/gofpdf.git
+git clone https://github.com/royge/gofpdf.git
 cd gofpdf
 git checkout -t origin/v2
 ```
@@ -63,7 +63,7 @@ If you currently use the $GOPATH scheme, install the package with the following
 command.
 
 ```shell
-go get github.com/jung-kurt/gofpdf/...
+go get github.com/royge/gofpdf/...
 ```
 
 To test the installation, run
@@ -252,23 +252,23 @@ UTF-8 runes to code page bytes is provided.
 [badge-doc]: https://img.shields.io/badge/godoc-GoFPDF-blue.svg 
 [badge-github]: https://img.shields.io/badge/project-Git_Hub-blue.svg
 [badge-mit]: https://img.shields.io/badge/license-MIT-blue.svg
-[badge-report]: https://goreportcard.com/badge/github.com/jung-kurt/gofpdf
-[badge-status]: https://travis-ci.org/jung-kurt/gofpdf.svg?branch=master
+[badge-report]: https://goreportcard.com/badge/github.com/royge/gofpdf
+[badge-status]: https://travis-ci.org/royge/gofpdf.svg?branch=master
 [coverage]: https://blog.golang.org/cover
 [dfont]: http://dejavu-fonts.org/
 [draw2d-site]: https://github.com/llgcode/draw2d
 [effective-go]: https://golang.org/doc/effective_go.html 
 [fpdf-site]: http://www.fpdf.org/
-[fpdf-test]: https://github.com/jung-kurt/gofpdf/blob/master/fpdf_test.go
+[fpdf-test]: https://github.com/royge/gofpdf/blob/master/fpdf_test.go
 [gfont]: https://fonts.google.com/
-[github]: https://github.com/jung-kurt/gofpdf
-[godoc]: https://godoc.org/github.com/jung-kurt/gofpdf
-[issue109]: https://github.com/jung-kurt/gofpdf/issues/109
+[github]: https://github.com/royge/gofpdf
+[godoc]: https://godoc.org/github.com/royge/gofpdf
+[issue109]: https://github.com/royge/gofpdf/issues/109
 [jung]: https://github.com/jung-kurt/
-[license]: https://raw.githubusercontent.com/jung-kurt/gofpdf/master/LICENSE
+[license]: https://raw.githubusercontent.com/royge/gofpdf/master/LICENSE
 [lint]: https://github.com/golang/lint
 [pr]: https://help.github.com/articles/using-pull-requests/
-[report]: https://goreportcard.com/report/github.com/jung-kurt/gofpdf
-[status]: https://travis-ci.org/jung-kurt/gofpdf
-[test]: https://github.com/jung-kurt/gofpdf/blob/master/fpdf_test.go
+[report]: https://goreportcard.com/report/github.com/royge/gofpdf
+[status]: https://travis-ci.org/royge/gofpdf
+[test]: https://github.com/royge/gofpdf/blob/master/fpdf_test.go
 [vet]: https://golang.org/cmd/vet/

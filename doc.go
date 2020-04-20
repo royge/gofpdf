@@ -79,7 +79,7 @@ Installation
 If you currently use the $GOPATH scheme, install the package with the
 following command.
 
-    go get github.com/jung-kurt/gofpdf/...
+    go get github.com/royge/gofpdf/...
 
 To test the installation, run
 
